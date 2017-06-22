@@ -17,10 +17,10 @@ the Global Options > Sweave settings
 # Making Document
 To make this document from source in a Unix-like OS, issue the following commands:
 
-"R CMD SWEAVE 'trb_template.rnw
+``R CMD SWEAVE 'trb_template.rnw
 pdflatex --shell-escape trb_template.tex
 bibtex trb_template
 pdflatex --shell-escape trb_template.tex
-pdflatex --shell-escape trb_template.tex"
+pdflatex --shell-escape trb_template.tex``
 
 The --shell-escape option is required to access the command line for the word count.
