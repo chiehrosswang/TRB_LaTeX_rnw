@@ -14,13 +14,13 @@ Perl is necessary for ``texcount`` to work and needs a Perl interpreter e.g. [Ac
 For R-Studio users using Sweave and .rnw ﬁles, you may enable shell escape command in 
 the Global Options > Sweave settings
 
-# Troubleshooting
+# Making Document
 To make this document from source in a Unix-like OS, issue the following commands:
 
-'R CMD SWEAVE 'trb_template.rnw'
-'pdflatex --shell-escape trb_template.tex
-'bibtex trb_template
-'pdflatex --shell-escape trb_template.tex
-'pdflatex --shell-escape trb_template.tex
+"R CMD SWEAVE 'trb_template.rnw
+pdflatex --shell-escape trb_template.tex
+bibtex trb_template
+pdflatex --shell-escape trb_template.tex
+pdflatex --shell-escape trb_template.tex"
 
 The --shell-escape option is required to access the command line for the word count.
