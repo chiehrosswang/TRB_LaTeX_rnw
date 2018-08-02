@@ -11,8 +11,8 @@ More instruction and details about the project can be found inside the
 
 Perl is necessary for ``\totaltexcount`` to work and needs a Perl interpreter e.g. [ActivePerl](http://www.activestate.com/activeperl/downloads).
 
-For R-Studio users using Sweave and .rnw ﬁles, you may enable shell escape command in 
-the **Global Options > Sweave** settings
+For R-Studio users using Sweave and .rnw ﬁles, you need to enable shell escape command in 
+the **Global Options > Sweave** settings for the word count.
 
 # Making Document
 To make this document from source in a Unix-like OS, issue the following commands:
